@@ -34,7 +34,7 @@ int main() {
     // Print rotated array
     printf("Array after %d right rotations:\n", k);
     for (i = 0; i < n; i++) {
-        printf("%d ", rotated[i]);
+        printf("%d\t", rotated[i]);
     }
     printf("\n");
 
